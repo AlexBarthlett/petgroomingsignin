@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Name: Alexander Barthlett
+    Created: 02JAN2024
+    Description: Client sign in application for pet grooming business
+    -->
+
+    <meta charset="UTF-8">
+    <meta content="Add on page for sign in application"
+          name="description">
+    <meta content="Alexander Barthlett"
+          name="author">
+
+    <title>Client add on page</title>
+    <link rel="stylesheet" href="css/generic.css"/>
+</head>
+<body>
+
+<div class="pagediv">
+    <div id="clientformadd">
+        <form id="addonform" action="submit.html">
+            <fieldset class="bluefieldset">
+                <legend class="pinklegend">Service Add-Ons</legend>
+
+                <div class="innerformone">
+                <fieldset class="pinkfieldset">
+                <legend class="bluelegend">Would you like to upgrade your shampoo or have a DESHED treatment? Leave it as Standard free:</legend>
+
+                    <div class="innerformtwo">
+                    <fieldset class="bluefieldset">
+                        <legend class="pinklegend">$5 Dollar Shampoo</legend>
+                        <input type="radio" id="blueberryshampoo" name="shampoo" value="blueberryshampoo"/>
+                        <label for="blueberryshampoo">Blueberry Yogurt Shampoo</label> <br>
+                        <input type="radio" id="darkshampoo" name="shampoo" value="darkshampoo"/>
+                        <label for="darkshampoo">Dark Beauty Shampoo</label> <br>
+                        <input type="radio" id="whiteshampoo" name="shampoo" value="whiteshampoo"/>
+                        <label for="whiteshampoo">Whitening Shampoo</label> <br>
+                        <input type="radio" id="lavendershampoo" name="shampoo" value="lavendershampoo"/>
+                        <label for="lavendershampoo">Lavender Shampoo</label> <br>
+                        <input type="radio" id="medshampoo" name="shampoo" value="medshampoo"/>
+                        <label for="medshampoo">Medicated Treatment</label> <br>
+                        <input type="radio" id="oatshampoo" name="shampoo" value="oatshampoo"/>
+                        <label for="oatshampoo">Oatmeal Shampoo</label> <br>
+                        <input type="radio" id="plainshampoo" name="shampoo" value="plainshampoo"/>
+                        <label for="plainshampoo">Unscented Shampoo</label> <br>
+                        <input type="radio" id="oilshampoo" name="shampoo" value="oilshampoo"/>
+                        <label for="oilshampoo">Hot Oil Conditioning Treatment</label> <br>
+                    </fieldset>
+                    </div>
+
+                    <div class="innerformtwo">
+                    <fieldset class="bluefieldset">
+                        <legend class="pinklegend">$10 Dollar Shampoo</legend>
+                        <input type="radio" id="co2shampoo" name="shampoo" value="co2shampoo"/>
+                        <label for="co2shampoo">CO2 Treatment</label> <br>
+                        <input type="radio" id="hempshampoo" name="shampoo" value="hempshampoo"/>
+                        <label for="hempshampoo">Hemp Shampoo</label> <br>
+                    </fieldset>
+                    </div>
+
+                    <div class="innerformtwo">
+                    <fieldset class="bluefieldset">
+                        <legend class="pinklegend">$15 Dollar Shampoo / Deshed</legend>
+                        <input type="radio" id="mudshampoo" name="shampoo" value="mudshampoo"/>
+                        <label for="mudshampoo">Mud Bath Treatment</label> <br>
+                        <input type="radio" id="deshedshampoo" name="shampoo" value="deshedshampoo"/>
+                        <label for="deshedshampoo">Deshed Treatment</label> <br>
+                        <input type="radio" id="fleashampoo" name="shampoo" value="fleashampoo"/>
+                        <label for="fleashampoo">Flea Treatment</label> <br>
+                    </fieldset>
+                    </div>
+
+                    <input type="radio" id="standardshampoo" name="shampoo" value="standard" checked/>
+                    <label for="standardshampoo">Standard (Free)</label> <br>
+                </fieldset> <br>
+                </div>
+
+                <div class="innerformone">
+                <fieldset class="pinkfieldset">
+                    <legend class="bluelegend">Would you like your Pets Nails Painted? ($05.00 additional charge):</legend>
+                    <input type="radio" id="nonail" name="nailpaint" value="nonail" checked/>
+                    <label for="nonail">No</label> <br> <br>
+                    <label>If yes, choose a color:</label> <br>
+                    <input type="radio" id="rednail" name="nailpaint" value="rednail"/>
+                    <label for="rednail">Red</label> <br>
+                </fieldset> <br>
+                </div>
+
+
+                <div class="innerformone">
+                <fieldset class="pinkfieldset">
+                    <legend class="bluelegend">Extras</legend>
+                <label>Would you like your dogs teeth brushed? ($05.00 additional charge):</label> <br>
+                <input type="radio" id="yesbrush" name="teethbrush" value="yesbrush"/>
+                <label for="yesbrush">Yes</label> <br>
+                <input type="radio" id="nobrush" name="teethbrush" value="nobrush" checked/>
+                <label for="nobrush">No</label> <br>
+
+                <label>Would you like your dogs anal glands expressed? ($05.00 additional charge):</label> <br>
+                <input type="radio" id="yesanal" name="analgland" value="yesanal"/>
+                <label for="yesanal">Yes</label> <br>
+                <input type="radio" id="noanal" name="analgland" value="noanal" checked/>
+                <label for="noanal">No</label> <br>
+
+                <label>Would you like nose balm for your dog (for dry/flakey nose)? ($05.00 additional charge):</label> <br>
+                <input type="radio" id="yesnosebalm" name="nosebalm" value="yesnosebalm"/>
+                <label for="yesnosebalm">Yes</label> <br>
+                <input type="radio" id="nonosebalm" name="nosebalm" value="nonosebalm" checked/>
+                <label for="nonosebalm">No</label> <br>
+
+                <label>Would you like paw balm for your dog (for dry/flakey paw pads)? ($05.00 additional charge):</label> <br>
+                <input type="radio" id="yesnailbalm" name="nailbalm" value="yesnailbalm"/>
+                <label for="yesnailbalm">Yes</label> <br>
+                <input type="radio" id="nonailbalm" name="nailbalm" value="nonailbalm" checked/>
+                <label for="nonailbalm">No</label> <br>
+                </fieldset>
+                </div>
+                <br>
+
+                <div class="arrowbutton">
+                    <input type="button" class="buttonClass" value="Back" form="addonform" onclick="backToIndex()"/>
+                    <input type="button" class="buttonClass" value="Next" form="addonform" onclick="toSubmitPage()"/>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<script src="js/addon.js"></script>
+</body>
+</html>
