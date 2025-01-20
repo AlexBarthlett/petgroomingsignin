@@ -1,0 +1,122 @@
+.pagediv {
+    background-color: #181818;
+    background-image: url("../images/businesslogonotext.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: multiply;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textleftdiv {
+    display: block;
+}
+
+.textleftdiv p{
+    display: inline-block;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    text-align: center;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-size: larger;
+}
+
+.bluelegend {
+    color: #0493cc;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.pinklegend {
+    color: #ff00dd;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.bluefieldset {
+    border-color: #0493cc;
+    border-width: thick;
+}
+
+.pinkfieldset {
+    border-color: #ff00dd;
+    border-width: thick;
+}
+
+#clientformindex {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 600px;
+    width: 100%
+}
+#clientformadd {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1200px;
+    width: 100%
+}
+#clientformsubmit {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 600px;
+    width: 100%
+}
+#thankyoutext {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.innerformone {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.innerformtwo {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+
+.buttonClass {
+    font-size:15px;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color: #ff00dd;
+    border-color: #ff00dd;
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    background: #0493cc;
+}
+
+.buttonClass:hover {
+    background: rgba(133, 133, 133, 1)
+}
+
+.arrowbutton {
+    text-align: center;
+}

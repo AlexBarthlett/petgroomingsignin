@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Name: Alexander Barthlett
+    Created: 02JAN2024
+    Description: Client sign in application for pet grooming business
+    -->
+
+    <meta charset="UTF-8">
+    <meta content="submit page for sign in application"
+          name="description">
+    <meta content="Alexander Barthlett"
+          name="author">
+
+    <title>Client submit page</title>
+    <!--<link rel="stylesheet" href="css/submit.css"/>-->
+    <link rel="stylesheet" href="css/generic.css"/>
+</head>
+<body>
+
+<div class="pagediv">
+    <div id="clientformsubmit">
+        <form>
+            <fieldset class="pinkfieldset">
+                <legend class="bluelegend">Add-Ons Selected</legend>
+                <div class="textleftdiv">
+                <p class="inline">Shampoo Selected:</p> <p class="inline" id="shampootext"></p> <br>
+                <p class="inline">Nail Paint:</p> <p class="inline" id="nailstext"></p> <br>
+                <p class="inline">Teeth Brushed:</p> <p class="inline" id="teethtext"></p> <br>
+                <p class="inline">Anal Gland Expression:</p> <p class="inline" id="analtext"></p> <br>
+                <p class="inline">Nose Balm:</p> <p class="inline" id="nosetext"></p> <br>
+                <p class="inline">Paw Balm:</p> <p class="inline" id="pawtext"></p> <br>
+                </div>
+
+
+                <div class="arrowbutton">
+                    <input type="button" class="buttonClass" value="Back" onclick="backToAddOnPage()"/>
+                    <input type="button" class="buttonClass" value="Submit" onclick="submitForm()"/>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<script src="js/submit.js"></script>
+</body>
+</html>

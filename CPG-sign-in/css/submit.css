@@ -1,0 +1,18 @@
+.inline {
+    display: inline;
+    color: #0493cc;
+}
+
+#submitpagefirstfieldset {
+    border-color: #ff00dd;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-width: thick;
+}
+
+
+.clientform {
+    padding-top: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+}

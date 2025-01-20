@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Name: Alexander Barthlett
+    Created: 02JAN2024
+    Description: Client sign in application for pet grooming business
+    -->
+
+    <meta charset="UTF-8">
+    <meta content="Initial page for sign in application"
+          name="description">
+    <meta content="Alexander Barthlett"
+          name="author">
+    <meta content="index, follow"
+          name="robots">
+
+    <title>Client sign in page</title>
+    <link rel="stylesheet" href="css/generic.css"/>
+</head>
+<body>
+
+<div class="pagediv">
+    <div id="clientformindex">
+        <form id="clientinfo" action="addon.html">
+            <fieldset class="pinkfieldset">
+                <legend class="bluelegend">Client Sign-In</legend>
+
+                <div class="textleftdiv">
+                <label for="name">Enter your full name:</label>
+                <input type="text" id="name" name="name" required /> <br><br>
+
+                <label for="dogname">Enter your Pets name:</label>
+                <input type="text" id="dogname" name="dogname" required /> <br><br>
+
+                <label for="phone">Enter a good phone number to use for pickup:</label>
+                <input type="text" id="phone" name="number" required/> <br><br>
+                </div>
+
+                <div class="arrowbutton">
+                    <input form="clientinfo" class="buttonClass" type="button" value="Next" onclick="goToNextPage()"/>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
